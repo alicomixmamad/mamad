@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>سایت شخصی من</title>
+  <style>
+    body {
+      font-family: 'Vazir', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00bfa5, #000000cf);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .subtitle {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    nav {
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 10px 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #00796b;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #004d40;
+    }
+
+    main {
+      padding: 40px 0;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .skill {
+      background-color: #e0f2f1;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+      color: #004d40;
+    }
+
+    footer {
+      background-color: #00796b;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>سلام، من امیرمحمدصادقی هستم</h1>
+      <p class="subtitle">بی تربیت | باهوش | عاشق یادگیری</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="container">
+      <li><a href="#about">درباره من</a></li>
+      <li><a href="#skills">مهارت‌ها</a></li>
+      <li><a href="#contact">تماس</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="about">
+      <h2>درباره من</h2>
+      <p>من عاشق خلق چیزهای جدیدم. از طراحی رابط کاربری گرفته تا توسعه وب‌سایت‌های واکنش‌گرا، همیشه دنبال یادگیری و رشد هستم.</p>
+    </section>
+
+    <section id="skills">
+      <h2>مهارت‌ها</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML & CSS</div>
+        <div class="skill">طراحی گرافیک</div>
+        <div class="skill">مدیریت پروژه</div>
+        <div class="skill">وردپرس</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>تماس با من</h2>
+      <p>📧 ایمیل: example@email.com</p>
+      <p>🔗 شبکه‌های اجتماعی: لینکدین، اینستاگرام</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 - طراحی شده با ❤️ توسط امیرمحمدصادقی</p>
+    </div>
+  </footer>
+</body>
+</html>
